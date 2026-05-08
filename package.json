@@ -1,0 +1,40 @@
+{
+  "name": "emitter-ts",
+  "version": "1.0.0",
+  "description": "Strict typed event emitter for TypeScript with sync/async dispatch, once/off semantics, listener-error isolation, and zero runtime dependencies.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage --verbose"
+  },
+  "keywords": [
+    "event-emitter",
+    "events",
+    "emitter",
+    "pubsub",
+    "typed",
+    "typescript",
+    "async",
+    "once",
+    "off",
+    "subscribe",
+    "zero-dependency"
+  ],
+  "author": "Nripanka Das <nripankadas@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nripankadas07/emitter-ts.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
