@@ -17,7 +17,7 @@ The emitter is parameterised by an event-name → payload-type map; every method
 ## Install
 
 ```bash
-npm install emitter-ts
+npm install && npm run build
 ```
 
 ## Usage
