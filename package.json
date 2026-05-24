@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --verbose",
-    "test:coverage": "jest --coverage --verbose"
+    "test:coverage": "jest --coverage --verbose",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "event-emitter",
